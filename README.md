@@ -1,6 +1,6 @@
 # mi_card_flutter
+![Screenshot_1612201568](https://user-images.githubusercontent.com/77343380/106543673-fdbbb800-6527-11eb-86e0-9bab95b7ffb2.png)
 
-A new Flutter application.
 
 ## Getting Started
 
