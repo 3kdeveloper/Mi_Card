@@ -13,11 +13,17 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
+        fontFamily: 'GochiHand',
       ),
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blueGrey[900],
-          title: Text('Mi Card'),
+          title: Text(
+            'Mi Card',
+            style: TextStyle(
+              fontSize: 35.0,
+            ),
+          ),
         ),
         body: Container(
           color: Colors.blueGrey[900],
@@ -39,8 +45,9 @@ class MyApp extends StatelessWidget {
                 '3k developer',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 25.0,
+                  fontSize: 30.0,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'BigShouldersDisplay',
                 ),
               ),
               SizedBox(
@@ -50,7 +57,7 @@ class MyApp extends StatelessWidget {
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
                   color: Colors.teal.shade100,
-                  fontSize: 13.0,
+                  fontSize: 25.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2,
                 ),
